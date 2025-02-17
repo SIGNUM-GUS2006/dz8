@@ -1,0 +1,12 @@
+//
+//  TokenResponse.swift
+//  test3
+//
+//  Created by Диана on 17.02.2025.
+//
+
+import Vapor
+
+struct TokenResponseDTO: Content {
+    let token: String
+}
